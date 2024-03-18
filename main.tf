@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket                  = "random-bucket-cosmo"
+    bucket                  = "mybucketcosmo"
     key                     = "my-terraform-project"
     region                  = "us-east-2"
     # shared_credentials_file = "~/.aws/credentials"
